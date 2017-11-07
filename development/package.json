@@ -1,0 +1,21 @@
+{
+    "name": "wordpress-gulp-process",
+    "version": "1.0.0",
+    "description": "Process for Gulp/SASS WP Development.",
+    "main": "index.php",
+    "author": "Andrew Bennett",
+    "license": "MIT",
+    "style": "../../css/style.css",
+    "devDependencies": {
+        "autoprefixer": "^7.1.6",
+        "gulp": "^3.9.1",
+        "gulp-autoprefixer": "^3.1.1",
+        "gulp-clean-css": "^2.0.8",
+        "gulp-postcss": "^7.0.0",
+        "gulp-rename": "^1.2.2",
+        "gulp-sass": "^2.3.1",
+        "gulp-sourcemaps": "^2.6.1",
+        "postcss-cssnext": "^3.0.2",
+        "run-sequence": "^2.2.0"
+    }
+}

@@ -1,0 +1,90 @@
+/*
+
+Theme Name: Theme Name
+
+Theme URI: https://www.example.com
+
+Author: Andrew Bennett
+
+Author URI: https://www.andrewbennett.us
+
+Description: Description goes here...
+
+Version: 1.0
+
+License: Meadio Single Site License
+
+License URI: https://www.meadio.com/licenses
+
+Text Domain: meadio
+
+Tags: two-columns, right-sidebar, custom-colors, custom-background, custom-header, custom-menu, featured-images, sticky-post, theme-options, threaded-comments, translation-ready
+
+1. Reboot
+2. Base
+3. Helpers
+4. Type
+5. Spacing
+6. Grid
+7. Header
+8. Nav
+9. Footer
+10. Hero
+11. Page Layout
+12. Sections
+13. Article
+14. Gallery
+15. Button
+16. Blockqoute
+17. Lists
+18. Forms
+19. Cards
+20. Map
+21. Featherlight
+22. Featherlight Gallery
+
+*/
+/* ==========================================================================
+
+2. Base
+
+========================================================================== */
+html {
+  background-color: #e9d2d2;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-smoothing: antialiased; }
+
+* {
+  tap-highlight-color: transparent; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+
+body {
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: normal;
+  font-family: "lato", Arial, sans-serif;
+  letter-spacing: 0.02rem;
+  color: #808080;
+  position: relative; }
+
+img {
+  vertical-align: middle;
+  border: 0; }
+
+img,
+iframe {
+  max-width: 100%; }
+
+img.responsive-img {
+  width: 100%; }

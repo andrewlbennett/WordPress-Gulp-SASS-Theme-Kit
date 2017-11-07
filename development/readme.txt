@@ -1,0 +1,1 @@
+This development folder is for other web developers. Please leave everything in this folder alone, unless you know what you are doing. These tools are meant to help web developers build websites faster.

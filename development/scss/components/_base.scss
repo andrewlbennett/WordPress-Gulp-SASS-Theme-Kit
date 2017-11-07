@@ -1,0 +1,53 @@
+/* ==========================================================================
+
+2. Base
+
+========================================================================== */
+
+html {
+    background-color: #e9d2d2;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-smoothing: antialiased;
+}
+
+* {
+    tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: normal;
+    font-family: "lato", Arial, sans-serif;
+    letter-spacing: 0.02rem;
+    color: #808080;
+    position: relative;
+}
+
+img {
+    vertical-align: middle;
+    border: 0;
+}
+
+img,
+iframe {
+    max-width: 100%;
+}
+
+img.responsive-img {
+    width: 100%;
+}
