@@ -30,7 +30,7 @@ add_action('wp_enqueue_scripts', 'podcast_theme_styles');
 
 // Load Javascript Files
 function podcast_theme_js() {
-    wp_enqueue_script('main_js', get_template_directory_uri() . '/js/main.js', array('jquery'), '', true);
+    wp_enqueue_script('main_js', get_template_directory_uri() . '/js/main.js', array('jquery'), '1.0.0', true);
 }
 add_action('wp_enqueue_scripts', 'podcast_theme_js');
 
